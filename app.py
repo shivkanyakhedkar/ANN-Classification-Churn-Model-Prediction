@@ -12,16 +12,11 @@ model = load_model("model_tf211.h5")
 
 ##load the trained model
 ##model=tf.keras.models.load_model('model.h5')
-model = tf.keras.models.load_model("model_tf211.h5")
+#model = tf.keras.models.load_model("model_tf211.h5")
 
 st.write("TensorFlow version:", tf.__version__)
 
-# Load model (make sure model_tf211.h5 is in the repo)
-try:
-    model = load_model("model_tf211.h5")
-    st.success("Model loaded successfully ✅")
-except Exception as e:
-    st.error(f"Failed to load model: {e}")
+
 
 
 ##load the encoders and scaler
