@@ -4,6 +4,7 @@ scikit-learn==1.5.0
 pandas==2.2.2
 numpy==1.26.4
 h5py
+protobuf==3.20.3
 
 
 
