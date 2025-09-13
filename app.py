@@ -6,6 +6,10 @@ from sklearn. preprocessing import StandardScaler , LabelEncoder,OneHotEncoder
 import pandas as pd
 import pickle
 
+st.cache_data.clear()
+st.cache_resource.clear()
+
+
 from tensorflow.keras.models import load_model
 model = load_model("model_tf211.h5")
 
